@@ -79,29 +79,40 @@ CUDA_VISIBLE_DEVICES=0,1 bash scripts/dist_train.sh 2 options/uformer_flare7kpp_
 
 ```
 ├── SurgClean Dataset
-    ├── SurgClean Dataset
-    	├── Defog
+	├── Defog
+		├── train
+			├── gt
+			├── input
 		├── test
 			├── gt
 			├── input
-		├── train
-		```
 	├── Desmoke
 	```
 	├── Desplash
 	```
-
-├── Flare-R
-	├── Compound_Flare
-	├── Light_Source
-├── test_data
-     ├── real
-          ├── input
-          ├── gt
-          ├── mask
-     ├── synthetic
-          ├── input
-          ├── gt
-	  ├── mask
-
-```
+├── SurgClean Dataset_Fine-grain Division
+	├── Defog_Level
+		├── test
+			├── gt
+				├── Level-1
+				├── Level-2
+				├── Level-3
+				├── Level-4
+			├── input
+				├── Level-1
+				├── Level-2
+				├── Level-3
+				├── Level-4
+	├── Desmoke_Level
+	```
+	├── Desplash_Category
+			├── gt
+				├── bile
+				├── blood
+				├── fat
+				├── tissue fluid
+			├── input
+				├── bile
+				├── blood
+				├── fat
+				├── tissue fluid
