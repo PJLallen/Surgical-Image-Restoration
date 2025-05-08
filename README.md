@@ -20,7 +20,7 @@ SurgClean Benchmark for Surgical Image Restoration.
 ### Data Download
 
 |     | Kaggle | Number | Description|
-| :--- | :--: | :----: | :---- | ---- |
+| :--- | :--: | :---- | ---- |
 | SurgClean | [link](https://kaggle.com/datasets/5bad41858571a3a9ea2f65a50c1d1d81c71956cc966c5b6ab96a42fa46418d78) | 1,020 | SurgClean consists of . |
 
 
