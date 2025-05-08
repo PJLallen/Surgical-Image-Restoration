@@ -74,14 +74,12 @@ SurgClean Benchmark for Surgical Image Restoration.
 ```
 
 
-## Pretrained Model
+## Pretrained Models
 
-The inference code based on Uformer is released Now. Your can download the pretrained checkpoints from the following links. Please place it under the `experiments` folder and unzip it, then you can run the `test.py` for inference. We provide two checkpoints for models training on Flare7K, the model in the folder `uformer` can help remove both the reflective flares and scattering flares. The `uformer_noreflection` one can only help remove the scattering flares but is more robust. Now, we prefer the users to test our new model trained on Flare7K++, it can achieve better results and more realistic light source.
-
-| Training Data       |                        Baidu Netdisk                         |                         Google Drive                         |
-| :------------------ | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| Flare7K             | [link](https://pan.baidu.com/s/1EJSYIbbQe5SZYiNIcvrmNQ?pwd=xui4) | [link](https://drive.google.com/file/d/1uFzIBNxfq-82GTBQZ_5EE9jgDh79HVLy/view?usp=sharing) |
-| Flare7K++ (**new**) | [link](https://pan.baidu.com/s/1lC4zSda5O2aUtMPlZ9sRiw?pwd=nips)  | [link](https://drive.google.com/file/d/17AX9BJ-GS0in9Ey7vw3BVPISm67Rpzho/view?usp=sharing)|
+| Training Data       |                   One Drive                     |
+| :------------------ | :----------------------------------------------------------: |
+| Restormer    | [link]() |
+| FocalNet | [link]()  |
 
 ## Training Commands
 
