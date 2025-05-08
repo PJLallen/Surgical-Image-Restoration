@@ -80,6 +80,16 @@ SurgClean Benchmark for Surgical Image Restoration.
 | :------------------ | :----------------------------------------------------------: |
 | Restormer    | [link]() |
 | FocalNet | [link]()  |
+| ConvIR    | [link]() |
+| Fourmer | [link]()  |
+| MambaIR    | [link]() |
+| Histoformer | [link]()  |
+| RAMiT    | [link]() |
+| AMIR | [link]()  |
+| AST    | [link]() |
+| X-Restormer | [link]()  |
+| SFHformer   | [link]() |
+|  MambaIRv2 | [link]()  |
 
 ## Training Commands
 
