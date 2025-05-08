@@ -1,7 +1,7 @@
 # Surgical-Image-Restoration
 SurgClean Benchmark for Surgical Image Restoration.
 
-## Requirements
+### Requirements
 
 - Python >= 3.7 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html))
 - [PyTorch >= 1.7](https://pytorch.org/)
