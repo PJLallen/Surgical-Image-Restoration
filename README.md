@@ -23,6 +23,48 @@ SurgClean Benchmark for Surgical Image Restoration.
 | :--- | :--: | :---- | ---- |
 | SurgClean | [link](https://kaggle.com/datasets/5bad41858571a3a9ea2f65a50c1d1d81c71956cc966c5b6ab96a42fa46418d78) | 1,020 | SurgClean consists of . |
 
+### SurgClean structure
+
+```
+├── SurgClean Dataset
+	├── Defog
+		├── train
+			├── gt
+			├── input
+		├── test
+			├── gt
+			├── input
+	├── Desmoke
+	```
+	├── Desplash
+	```
+├── SurgClean Dataset_Fine-grain Division
+	├── Defog_Level
+		├── test
+			├── gt
+				├── Level-1
+				├── Level-2
+				├── Level-3
+				├── Level-4
+			├── input
+				├── Level-1
+				├── Level-2
+				├── Level-3
+				├── Level-4
+	├── Desmoke_Level
+	```
+	├── Desplash_Category
+			├── gt
+				├── bile
+				├── blood
+				├── fat
+				├── tissue fluid
+			├── input
+				├── bile
+				├── blood
+				├── fat
+				├── tissue fluid
+
 
 ### Pretrained Model
 
@@ -75,44 +117,4 @@ If you want to use Flare7K++ for training, please use:
 CUDA_VISIBLE_DEVICES=0,1 bash scripts/dist_train.sh 2 options/uformer_flare7kpp_baseline_option.yml
 ```
 
-### SurgClean structure
 
-```
-├── SurgClean Dataset
-	├── Defog
-		├── train
-			├── gt
-			├── input
-		├── test
-			├── gt
-			├── input
-	├── Desmoke
-	```
-	├── Desplash
-	```
-├── SurgClean Dataset_Fine-grain Division
-	├── Defog_Level
-		├── test
-			├── gt
-				├── Level-1
-				├── Level-2
-				├── Level-3
-				├── Level-4
-			├── input
-				├── Level-1
-				├── Level-2
-				├── Level-3
-				├── Level-4
-	├── Desmoke_Level
-	```
-	├── Desplash_Category
-			├── gt
-				├── bile
-				├── blood
-				├── fat
-				├── tissue fluid
-			├── input
-				├── bile
-				├── blood
-				├── fat
-				├── tissue fluid
