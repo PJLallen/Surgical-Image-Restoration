@@ -21,6 +21,7 @@ SurgClean Benchmark for Surgical Image Restoration.
     ```bash
     cd Surgical-Image-Restoration
     pip install -r requirements.txt
+    python setup.py develop
     ```
 
 ### Data Download
