@@ -23,7 +23,7 @@ SurgClean Benchmark for Surgical Image Restoration.
     pip install -r requirements.txt
     python setup.py develop
     ```
-
+## Data Preparing
 ### Data Download
 
 |     | Kaggle | Number | Description|
@@ -74,7 +74,7 @@ SurgClean Benchmark for Surgical Image Restoration.
 ```
 
 
-### Pretrained Model
+## Pretrained Model
 
 The inference code based on Uformer is released Now. Your can download the pretrained checkpoints from the following links. Please place it under the `experiments` folder and unzip it, then you can run the `test.py` for inference. We provide two checkpoints for models training on Flare7K, the model in the folder `uformer` can help remove both the reflective flares and scattering flares. The `uformer_noreflection` one can only help remove the scattering flares but is more robust. Now, we prefer the users to test our new model trained on Flare7K++, it can achieve better results and more realistic light source.
 
@@ -83,46 +83,68 @@ The inference code based on Uformer is released Now. Your can download the pretr
 | Flare7K             | [link](https://pan.baidu.com/s/1EJSYIbbQe5SZYiNIcvrmNQ?pwd=xui4) | [link](https://drive.google.com/file/d/1uFzIBNxfq-82GTBQZ_5EE9jgDh79HVLy/view?usp=sharing) |
 | Flare7K++ (**new**) | [link](https://pan.baidu.com/s/1lC4zSda5O2aUtMPlZ9sRiw?pwd=nips)  | [link](https://drive.google.com/file/d/17AX9BJ-GS0in9Ey7vw3BVPISm67Rpzho/view?usp=sharing)|
 
-### Inference Code
-To estimate the flare-free images with our checkpoint pretrained on Flare7K++, you can run the `test.py` or `test_large.py` (for image larger than 512*512) by using:
-```
-python test_large.py --input dataset/Flare7Kpp/test_data/real/input --output result/test_real/flare7kpp/ --model_path experiments/flare7kpp/net_g_last.pth --flare7kpp
-```
-If you use our checkpoint pretrained on Flare7K, please run:
-```
-python test_large.py --input dataset/Flare7Kpp/test_data/real/input --output result/test_real/flare7k/ --model_path experiments/flare7k/net_g_last.pth
-```
+## Training Commands
 
-### Evaluation Code
-To calculate different metrics with our pretrained model, you can run the `evaluate.py` by using:
-```
-python evaluate.py --input result/blend/ --gt dataset/Flare7Kpp/test_data/real/gt/ --mask dataset/Flare7Kpp/test_data/real/mask/
-```
+### Single GPU Training
 
-### Training model
+> PYTHONPATH="./:${PYTHONPATH}" \\\
+> CUDA_VISIBLE_DEVICES=0 \\\
+> python basicsr/train.py -opt options/train/SRResNet_SRGAN/train_MSRResNet_x4.yml
 
-**Training with single GPU**
+### Distributed Training
 
-To train a model with your own data/model, you can edit the `options/uformer_flare7k_option.yml` and run the following codes. You can also add `--debug` command to start the debug mode:
+**8 GPUs**
 
-```
-python basicsr/train.py -opt options/uformer_flare7k_option.yml
-```
-If you want to use Flare7K++ for training, please use:
-```
-python basicsr/train.py -opt options/uformer_flare7kpp_baseline_option.yml
-```
+> PYTHONPATH="./:${PYTHONPATH}" \\\
+> CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 \\\
+> python -m torch.distributed.launch --nproc_per_node=8 --master_port=4321 basicsr/train.py -opt options/train/EDVR/train_EDVR_M_x4_SR_REDS_woTSA.yml --launcher pytorch
 
-**Training with multiple GPU**
+or
 
-You can run the following command for the multiple GPU tranining:
+> CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 \\\
+> ./scripts/dist_train.sh 8 options/train/EDVR/train_EDVR_M_x4_SR_REDS_woTSA.yml
 
-```
-CUDA_VISIBLE_DEVICES=0,1 bash scripts/dist_train.sh 2 options/uformer_flare7k_option.yml
-```
-If you want to use Flare7K++ for training, please use:
-```
-CUDA_VISIBLE_DEVICES=0,1 bash scripts/dist_train.sh 2 options/uformer_flare7kpp_baseline_option.yml
-```
+**4 GPUs**
 
+> PYTHONPATH="./:${PYTHONPATH}" \\\
+> CUDA_VISIBLE_DEVICES=0,1,2,3 \\\
+> python -m torch.distributed.launch --nproc_per_node=4 --master_port=4321 basicsr/train.py -opt options/train/EDVR/train_EDVR_M_x4_SR_REDS_woTSA.yml --launcher pytorch
+
+or
+
+> CUDA_VISIBLE_DEVICES=0,1,2,3 \\\
+> ./scripts/dist_train.sh 4 options/train/EDVR/train_EDVR_M_x4_SR_REDS_woTSA.yml
+
+
+## Testing Commands
+
+### Single GPU Testing
+
+> PYTHONPATH="./:${PYTHONPATH}" \\\
+> CUDA_VISIBLE_DEVICES=0 \\\
+> python basicsr/test.py -opt options/test/SRResNet_SRGAN/test_MSRResNet_x4.yml
+
+### Distributed Testing
+
+**8 GPUs**
+
+> PYTHONPATH="./:${PYTHONPATH}" \\\
+> CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 \\\
+> python -m torch.distributed.launch --nproc_per_node=8 --master_port=4321 basicsr/test.py -opt options/test/EDVR/test_EDVR_M_x4_SR_REDS.yml --launcher pytorch
+
+or
+
+> CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 \\\
+> ./scripts/dist_test.sh 8 options/test/EDVR/test_EDVR_M_x4_SR_REDS.yml
+
+**4 GPUs**
+
+> PYTHONPATH="./:${PYTHONPATH}" \\\
+> CUDA_VISIBLE_DEVICES=0,1,2,3 \\\
+> python -m torch.distributed.launch --nproc_per_node=4 --master_port=4321 basicsr/test.py -opt options/test/EDVR/test_EDVR_M_x4_SR_REDS.yml  --launcher pytorch
+
+or
+
+> CUDA_VISIBLE_DEVICES=0,1,2,3 \\\
+> ./scripts/dist_test.sh 4 options/test/EDVR/test_EDVR_M_x4_SR_REDS.yml
 
