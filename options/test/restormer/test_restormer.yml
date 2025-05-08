@@ -1,0 +1,54 @@
+name: test_restormer_desmoke_wholeimage
+suffix: ~  # add suffix to saved images
+model_type: SRModel
+scale: 1
+crop_border: ~  # crop border when evaluation. If None, crop the scale pixels
+num_gpu: 1  # set num_gpu: 0 for cpu mode
+manual_seed: 0
+
+datasets:
+  test_1:  # the 1st test dataset
+    name: test_desmoke
+    type: PairedImageDataset
+    dataroot_gt: /home/diandian/Diandian/DD/LV_DATA/levels/Desmoke/test/gt/Level-1
+    dataroot_lq: /home/diandian/Diandian/DD/LV_DATA/levels/Desmoke/test/input/Level-1
+    io_backend:
+      type: disk
+
+
+# network structures
+network_g:
+  type: restormer
+  inp_channels: 3
+  out_channels: 3
+  dim: 48
+  num_blocks: [4,6,6,8]
+  num_refinement_blocks: 4
+  heads: [1,2,4,8]
+  ffn_expansion_factor: 2.66
+  bias: False
+  LayerNorm_type: WithBias
+  dual_pixel_task: False
+
+val:
+  save_img: true
+  suffix: ~  # add suffix to saved images, if None, use exp name
+
+  metrics:
+    psnr: # metric name, can be arbitrary
+      type: calculate_psnr
+      crop_border: 0
+      test_y_channel: false
+    ssim:
+      type: calculate_ssim
+      crop_border: 0
+      test_y_channel: false
+    lpips:
+      type: calculate_lpips
+      crop_border: 0
+      test_y_channel: false
+
+# path
+path:
+  pretrain_network_g: /home/diandian/Diandian/DD/basicsr/experiments/restorme_desmoke_align/models/net_g_100000.pth
+  strict_load_g: true
