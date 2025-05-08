@@ -7,7 +7,7 @@ SurgClean Benchmark for Surgical Image Restoration.
 1. Clone the repo
 
     ```bash
-    git clone https://github.com/ykdai/Flare7K.git
+    git clone https://github.com/PJLallen/Surgical-Image-Restoration.git
     ```
 
 1. Install dependent packages
@@ -17,20 +17,11 @@ SurgClean Benchmark for Surgical Image Restoration.
     pip install -r requirements.txt
     ```
 
-1. Install Flare7K<br>
-    Please run the following commands in the **Flare7K root path** to install Flare7K:<br>
-
-    ```bash
-    python setup.py develop
-    ```
-
 ### Data Download
 
 |     | Baidu Netdisk | Google Drive | Number | Description|
 | :--- | :--: | :----: | :---- | ---- |
-| Flare7K++(**new**) | [link](https://pan.baidu.com/s/1iNomlQuapPdJqtg3_uX_Fg?pwd=nips) | [link](https://drive.google.com/file/d/1PPXWxn7gYvqwHX301SuWmjI7IUUtqxab/view) | 7,962 | Flare7K++ consists of Flare7K and Flare-R. Flare7K offers 5,000 scattering flare images and 2,000 reflective flare images, consisting of 25 types of scattering flares and 10 types of reflective flares. Flare-R offers 962 real-captured flare patterns. |
-| Background Images| [link](https://pan.baidu.com/s/1BYPRCNSsVmn4VvuU4y4C-Q?pwd=zoyv) | [link](https://drive.google.com/file/d/1GNFGWfUbgXfELx5fZtjTjU2qqWnEa-Lr/view) | 23,949 | The background images are sampled from [[Single Image Reflection Removal with Perceptual Losses, Zhang et al., CVPR 2018]](https://people.eecs.berkeley.edu/~cecilia77/project-pages/reflection.html). We filter our most of the flare-corrupted images and overexposed images.|
-| Flare-corrupted images | [link](https://pan.baidu.com/s/1bCOOpO3FKBZvI1aezfbFOw?pwd=ears) | [link](https://drive.google.com/file/d/19kLXf8roHoJmxyphYvrCs9zDAXsrL1sU/view?usp=sharing) | 645 | We offer an extra flare-corrupted dataset without ground truth. It contains 645 images captured by different cameras and some images are very challenging. |
+| SurgClean | [link](https://kaggle.com/datasets/5bad41858571a3a9ea2f65a50c1d1d81c71956cc966c5b6ab96a42fa46418d78) | [link](https://drive.google.com/file/d/1PPXWxn7gYvqwHX301SuWmjI7IUUtqxab/view) | 7,962 | Flare7K++ consists of Flare7K and Flare-R. Flare7K offers 5,000 scattering flare images and 2,000 reflective flare images, consisting of 25 types of scattering flares and 10 types of reflective flares. Flare-R offers 962 real-captured flare patterns. |
 
 ### Paired Data Generation
 
