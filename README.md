@@ -13,24 +13,15 @@ SurgClean Benchmark for Surgical Image Restoration.
 1. Install dependent packages
 
     ```bash
-    cd Flare7K
+    cd Surgical-Image-Restoration
     pip install -r requirements.txt
     ```
 
 ### Data Download
 
-|     | Baidu Netdisk | Google Drive | Number | Description|
+|     | Kaggle | Number | Description|
 | :--- | :--: | :----: | :---- | ---- |
-| SurgClean | [link](https://kaggle.com/datasets/5bad41858571a3a9ea2f65a50c1d1d81c71956cc966c5b6ab96a42fa46418d78) | [link](https://drive.google.com/file/d/1PPXWxn7gYvqwHX301SuWmjI7IUUtqxab/view) | 7,962 | Flare7K++ consists of Flare7K and Flare-R. Flare7K offers 5,000 scattering flare images and 2,000 reflective flare images, consisting of 25 types of scattering flares and 10 types of reflective flares. Flare-R offers 962 real-captured flare patterns. |
-
-### Paired Data Generation
-
-We provide a on-the-fly dataloader function and a flare-corrupted/flare-free pairs generation script in this repository. To use this function, please put the Flare7K dataset and 24K Flickr dataset on the same path with the `generate_flare.ipynb` file.
-
-If you only want to generate the flare-corrupted image without reflective flare, you can comment out the following line:
-```
-# flare_image_loader.load_reflective_flare('Flare7K','Flare7k/Reflective_Flare')
-```
+| SurgClean | [link](https://kaggle.com/datasets/5bad41858571a3a9ea2f65a50c1d1d81c71956cc966c5b6ab96a42fa46418d78) | 1,020 | SurgClean consists of . |
 
 
 ### Pretrained Model
@@ -84,7 +75,7 @@ If you want to use Flare7K++ for training, please use:
 CUDA_VISIBLE_DEVICES=0,1 bash scripts/dist_train.sh 2 options/uformer_flare7kpp_baseline_option.yml
 ```
 
-### Flare7k++ structure
+### SurgClean structure
 
 ```
 ├── Flare7K
