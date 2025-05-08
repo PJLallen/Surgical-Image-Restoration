@@ -64,6 +64,7 @@ SurgClean Benchmark for Surgical Image Restoration.
 				├── blood
 				├── fat
 				├── tissue fluid
+```
 
 
 ### Pretrained Model
