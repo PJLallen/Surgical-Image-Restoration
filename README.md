@@ -78,14 +78,19 @@ CUDA_VISIBLE_DEVICES=0,1 bash scripts/dist_train.sh 2 options/uformer_flare7kpp_
 ### SurgClean structure
 
 ```
-├── Flare7K
-    ├── Reflective_Flare 
-    ├── Scattering_Flare
-         ├── Compound_Flare
-         ├── Glare_with_shimmer
-         ├── Core
-         ├── Light_Source
-         ├── Streak
+├── SurgClean Dataset
+    ├── SurgClean Dataset
+    	├── Defog
+		├── test
+			├── gt
+			├── input
+		├── train
+		```
+	├── Desmoke
+	```
+	├── Desplash
+	```
+
 ├── Flare-R
 	├── Compound_Flare
 	├── Light_Source
