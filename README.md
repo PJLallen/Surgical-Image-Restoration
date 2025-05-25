@@ -1,5 +1,5 @@
 # Surgical-Image-Restoration
-SurgClean Benchmark for Surgical Image Restoration.
+Benchmarking Laparoscopic Surgical Image Restoration and Beyond
 
 ### Requirements
 
