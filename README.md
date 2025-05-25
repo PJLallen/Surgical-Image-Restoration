@@ -1,5 +1,9 @@
-# Surgical-Image-Restoration
-Benchmarking Laparoscopic Surgical Image Restoration and Beyond
+# [2025] Surgical Image Restoration Benchmark
+Official Implementation of "[Benchmarking Laparoscopic Surgical Image Restoration and Beyond]()"
+
+[Jialun Pei](https://scholar.google.com/citations?user=1lPivLsAAAAJ&hl=en), [Diandian Guo](https://scholar.google.com/citations?user=yXycwhIAAAAJ&hl=zh-CN&oi=ao), [Donghui Yang](), [Zhixi Li](), [Yuxin Feng](), [Long Ma](https://scholar.google.com/citations?user=QeCRo9sAAAAJ&hl=zh-CN&oi=ao), [Bo Du](https://scholar.google.com/citations?user=Shy1gnMAAAAJ&hl=zh-CN&oi=ao), and [Pheng-Ann Heng](https://scholar.google.com/citations?user=OFdytjoAAAAJ&hl=zh-CN)
+
+**Contact:** peijialun@gmail.com, malone94319@gmail.com
 
 ### Requirements
 
@@ -155,4 +159,18 @@ or
 
 > CUDA_VISIBLE_DEVICES=0,1,2,3 \\\
 > ./scripts/dist_test.sh 4 options/test/EDVR/test_EDVR_M_x4_SR_REDS.yml
+
+## 📚 Citation
+
+If this helps you, please cite this work:
+
+```bibtex
+@inproceedings{pei2024restoration,
+  title={Benchmarking Laparoscopic Surgical Image Restoration and Beyond},
+  author={Pei, Jialun and Guo, Diandian and Yang, Donghui and Li, Zhixi and Feng, Yuxin and Ma, Long and Du, Bo and Heng, Pheng-Ann},
+  booktitle={arXiv},
+  year={2025}
+}
+```
+
 
