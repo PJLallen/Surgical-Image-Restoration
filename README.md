@@ -26,9 +26,9 @@ SurgClean Benchmark for Surgical Image Restoration.
 ## Data Preparing
 ### Data Download
 
-|     | Kaggle | Number | Description|
-| :--- | :--: | :---- | ---- |
-| SurgClean | [link]() | 1,020 | SurgClean involves multi-type image restoration tasks, i.e., desmoking, defogging, and desplashing. It comprises 1,020 multi-type endoscopic images with varying degradation types and corresponding adjacent clean frames as unaligned paired labels.|
+|     | Kaggle | Description|
+| :--- | :--: | ---- |
+| SurgClean | [link]() | SurgClean involves multi-type image restoration tasks, i.e., desmoking, defogging, and desplashing. It comprises 1,020 multi-type endoscopic images with varying degradation types and corresponding adjacent clean frames as unaligned paired labels.|
 
 ### SurgClean structure
 
