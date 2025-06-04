@@ -1,5 +1,5 @@
 # [2025] Surgical Image Restoration Benchmark
-Official Implementation of "[Benchmarking Laparoscopic Surgical Image Restoration and Beyond]()"
+Official Implementation of "[Benchmarking Laparoscopic Surgical Image Restoration and Beyond](https://arxiv.org/abs/2505.19161)"
 
 [Jialun Pei](https://scholar.google.com/citations?user=1lPivLsAAAAJ&hl=en), [Diandian Guo](https://scholar.google.com/citations?user=yXycwhIAAAAJ&hl=zh-CN&oi=ao), [Donghui Yang](), [Zhixi Li](), [Yuxin Feng](), [Long Ma](https://scholar.google.com/citations?user=QeCRo9sAAAAJ&hl=zh-CN&oi=ao), [Bo Du](https://scholar.google.com/citations?user=Shy1gnMAAAAJ&hl=zh-CN&oi=ao), and [Pheng-Ann Heng](https://scholar.google.com/citations?user=OFdytjoAAAAJ&hl=zh-CN)
 
@@ -165,10 +165,10 @@ or
 If this helps you, please cite this work:
 
 ```bibtex
-@inproceedings{pei2024restoration,
+@article{pei2025benchmarking,
   title={Benchmarking Laparoscopic Surgical Image Restoration and Beyond},
   author={Pei, Jialun and Guo, Diandian and Yang, Donghui and Li, Zhixi and Feng, Yuxin and Ma, Long and Du, Bo and Heng, Pheng-Ann},
-  booktitle={arXiv},
+  journal={arXiv preprint arXiv:2505.19161},
   year={2025}
 }
 ```
