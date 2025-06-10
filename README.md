@@ -90,47 +90,45 @@ Official Implementation of "[Benchmarking Laparoscopic Surgical Image Restoratio
 
 | Task         | Method        | Link |
 |--------------|---------------|------|
-| **Desmoking** |               |      |
 |              | Restormer     | [link]() |
 |              | FocalNet      | [link]() |
 |              | ConvIR        | [link]() |
 |              | Fourmer       | [link]() |
 |              | MambaIR       | [link]() |
 |              | Histoformer   | [link]() |
-|              | RAMiT         | [link]() |
+| **Desmoking**| RAMiT         | [link]() |
 |              | AMIR          | [link]() |
 |              | AST           | [link]() |
 |              | X-Restormer   | [link]() |
 |              | SFHformer     | [link]() |
 |              | MambaIRv2     | [link]() |
 |--------------|---------------|------|
-| **Defogging** |               |      |
 |              | Restormer     | [link]() |
 |              | FocalNet      | [link]() |
 |              | ConvIR        | [link]() |
 |              | Fourmer       | [link]() |
 |              | MambaIR       | [link]() |
 |              | Histoformer   | [link]() |
-|              | RAMiT         | [link]() |
+| **Defogging**| RAMiT         | [link]() |
 |              | AMIR          | [link]() |
 |              | AST           | [link]() |
 |              | X-Restormer   | [link]() |
 |              | SFHformer     | [link]() |
 |              | MambaIRv2     | [link]() |
 |--------------|---------------|------|
-| **Desplashing** |            |      |
 |              | Restormer     | [link]() |
 |              | FocalNet      | [link]() |
 |              | ConvIR        | [link]() |
 |              | Fourmer       | [link]() |
 |              | MambaIR       | [link]() |
 |              | Histoformer   | [link]() |
-|              | RAMiT         | [link]() |
+| **Desplashing**| RAMiT       | [link]() |
 |              | AMIR          | [link]() |
 |              | AST           | [link]() |
 |              | X-Restormer   | [link]() |
 |              | SFHformer     | [link]() |
 |              | MambaIRv2     | [link]() |
+
 
 
 ## Training Commands
