@@ -88,11 +88,45 @@ Official Implementation of "[Benchmarking Laparoscopic Surgical Image Restoratio
 
 ## 🚀 Pretrained Models
 
-| Training Data       |                   One Drive                     |
-| :------------------ | :----------------------------------------------------------: |
-| Desmoking    | [link](https://mycuhk-my.sharepoint.com/:f:/g/personal/1155229775_link_cuhk_edu_hk/Ev_wvkOeof9LjgQ6MRMNvygBg3kII2MQScoODOYFmo6gGw?e=IxI802) |
-| Defogging | [link](https://mycuhk-my.sharepoint.com/:f:/g/personal/1155229775_link_cuhk_edu_hk/EtTTDTHP7EhDolu2X6_4FckB7fupw6dQ0bQDjbgbmWUFkA?e=zfg8uW)  |
-| Desplashing    | [link](https://mycuhk-my.sharepoint.com/:f:/g/personal/1155229775_link_cuhk_edu_hk/EvGNuZ4_17hGueQqsVgiy_gBkNx23BVxoV7mQjM0Li8csw?e=JFucL2) |
+| Task         | Method        | Link |
+|--------------|---------------|------|
+| Desmoking    | Restormer     | [link]() |
+|              | FocalNet      | [link]() |
+|              | ConvIR        | [link]() |
+|              | Fourmer       | [link]() |
+|              | MambaIR       | [link]() |
+|              | Histoformer   | [link]() |
+|              | RAMiT         | [link]() |
+|              | AMIR          | [link]() |
+|              | AST           | [link]() |
+|              | X-Restormer   | [link]() |
+|              | SFHformer     | [link]() |
+|              | MambaIRv2     | [link]() |
+| Defogging    | Restormer     | [link]() |
+|              | FocalNet      | [link]() |
+|              | ConvIR        | [link]() |
+|              | Fourmer       | [link]() |
+|              | MambaIR       | [link]() |
+|              | Histoformer   | [link]() |
+|              | RAMiT         | [link]() |
+|              | AMIR          | [link]() |
+|              | AST           | [link]() |
+|              | X-Restormer   | [link]() |
+|              | SFHformer     | [link]() |
+|              | MambaIRv2     | [link]() |
+| Desplashing  | Restormer     | [link]() |
+|              | FocalNet      | [link]() |
+|              | ConvIR        | [link]() |
+|              | Fourmer       | [link]() |
+|              | MambaIR       | [link]() |
+|              | Histoformer   | [link]() |
+|              | RAMiT         | [link]() |
+|              | AMIR          | [link]() |
+|              | AST           | [link]() |
+|              | X-Restormer   | [link]() |
+|              | SFHformer     | [link]() |
+|              | MambaIRv2     | [link]() |
+
 
 ## Training Commands
 
