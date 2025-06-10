@@ -168,6 +168,11 @@ or
 > CUDA_VISIBLE_DEVICES=0,1,2,3 \\\
 > ./scripts/dist_test.sh 4 options/test/EDVR/test_EDVR_M_x4_SR_REDS.yml
 
+## Benchmarking Results
+### Quantitative comparison for surgical image restoration on SurgClean test set.
+
+![Result](assets/Results.png)
+
 ## 📚 Citation
 
 If this helps you, please cite this work:
