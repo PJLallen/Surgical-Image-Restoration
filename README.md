@@ -173,6 +173,12 @@ or
 
 ![Result](assets/Results.png)
 
+![Result2](assets/Rose.png)
+
+### Qualitative comparison for surgical image restoration on SurgClean test set.
+
+![Visual](assets/Visual_Comparison.png)
+
 ## 📚 Citation
 
 If this helps you, please cite this work:
