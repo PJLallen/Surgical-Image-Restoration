@@ -90,9 +90,9 @@ Official Implementation of "[Benchmarking Laparoscopic Surgical Image Restoratio
 
 | Training Data       |                   One Drive                     |
 | :------------------ | :----------------------------------------------------------: |
-| Desmoking    | [link]() |
-| Defogging | [link]()  |
-| Desplashing    | [link]() |
+| Desmoking    | [link](https://mycuhk-my.sharepoint.com/:f:/g/personal/1155229775_link_cuhk_edu_hk/Ev_wvkOeof9LjgQ6MRMNvygBg3kII2MQScoODOYFmo6gGw?e=IxI802) |
+| Defogging | [link](https://mycuhk-my.sharepoint.com/:f:/g/personal/1155229775_link_cuhk_edu_hk/EtTTDTHP7EhDolu2X6_4FckB7fupw6dQ0bQDjbgbmWUFkA?e=zfg8uW)  |
+| Desplashing    | [link](https://mycuhk-my.sharepoint.com/:f:/g/personal/1155229775_link_cuhk_edu_hk/EvGNuZ4_17hGueQqsVgiy_gBkNx23BVxoV7mQjM0Li8csw?e=JFucL2) |
 
 ## Training Commands
 
