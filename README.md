@@ -9,7 +9,7 @@ Official Implementation of "[Benchmarking Laparoscopic Surgical Image Restoratio
 
 **Contact:** peijialun@gmail.com, malone94319@gmail.com
 
-### Requirements
+### 🔧 Requirements
 
 - Python >= 3.7 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html))
 - [PyTorch >= 1.7](https://pytorch.org/)
@@ -32,7 +32,7 @@ Official Implementation of "[Benchmarking Laparoscopic Surgical Image Restoratio
     python setup.py develop
     ```
 
-## SurgClean Dataset 
+## 💥 SurgClean Dataset 
 
 ![SurgClean](assets/Dataset.png)
     
@@ -86,7 +86,7 @@ Official Implementation of "[Benchmarking Laparoscopic Surgical Image Restoratio
 ```
 
 
-## Pretrained Models
+## 🚀 Pretrained Models
 
 | Training Data       |                   One Drive                     |
 | :------------------ | :----------------------------------------------------------: |
@@ -127,7 +127,7 @@ or
 > ./scripts/dist_train.sh 4 options/train/EDVR/train_EDVR_M_x4_SR_REDS_woTSA.yml
 
 
-## Testing Commands
+## ⚙️ Testing Commands
 
 ### Single GPU Testing
 
@@ -159,7 +159,7 @@ or
 > CUDA_VISIBLE_DEVICES=0,1,2,3 \\\
 > ./scripts/dist_test.sh 4 options/test/EDVR/test_EDVR_M_x4_SR_REDS.yml
 
-## Benchmarking Results
+## 📈 Benchmarking Results
 ### Quantitative comparison for surgical image restoration on SurgClean test set.
 
 ![Result](assets/Results.png)
