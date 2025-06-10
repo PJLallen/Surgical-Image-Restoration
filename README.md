@@ -90,17 +90,17 @@ Official Implementation of "[Benchmarking Laparoscopic Surgical Image Restoratio
 
 | Task         | Method        | Link |
 |--------------|---------------|------|
-|              | Restormer     | [link]() |
-|              | FocalNet      | [link]() |
-|              | ConvIR        | [link]() |
+|              | Restormer     | [link](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155229775_link_cuhk_edu_hk/EZElMdwlg-xNnJEdJ5KnDmoBgnpzaPacbMlUWL0mmw4BkQ?e=y4RhPO) |
+|              | FocalNet      | [link](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155229775_link_cuhk_edu_hk/EYkp3P3qzTtChmDt8Acngm8BSdH7o8C_dXBXpsrBksJM_A?e=VHrUrc) |
+|              | ConvIR        | [link](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155229775_link_cuhk_edu_hk/EdDkxFqrtm9ItTVrh_x9F3kBXJ9r9V4M64msxpI-RZSGgg?e=ypfyYI) |
 |              | Fourmer       | [link]() |
-|              | MambaIR       | [link]() |
+|              | MambaIR       | [link](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155229775_link_cuhk_edu_hk/EcTnI2f19J1IjLrqecIZlh4Bc0mmlqrD_TCZdK3t15Q09Q?e=GE3hyY) |
 |              | Histoformer   | [link]() |
 | **Desmoking**| RAMiT         | [link]() |
 |              | AMIR          | [link]() |
-|              | AST           | [link]() |
-|              | X-Restormer   | [link]() |
-|              | SFHformer     | [link]() |
+|              | AST           | [link](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155229775_link_cuhk_edu_hk/EY-Kk6usaH5DiyPjeDFe4EUB7vZv2cNRHLHmX51iCKrEIQ?e=qnxdX9) |
+|              | X-Restormer   | [link](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155229775_link_cuhk_edu_hk/EdnGkPQ3jkFHt8dBQhbfAxIBVU3rjEBqkF8QXm31FJjg6w?e=S5mW9n) |
+|              | SFHformer     | [link](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155229775_link_cuhk_edu_hk/ERFQ6yQ4LtxInEmGli3mJq0BOkMQwZyOqyp5ln8IWCGlWw?e=ipa79T) |
 |              | MambaIRv2     | [link]() |
 |==============|===============|======|
 |              | Restormer     | [link]() |
@@ -111,9 +111,9 @@ Official Implementation of "[Benchmarking Laparoscopic Surgical Image Restoratio
 |              | Histoformer   | [link]() |
 | **Defogging**| RAMiT         | [link]() |
 |              | AMIR          | [link]() |
-|              | AST           | [link]() |
-|              | X-Restormer   | [link]() |
-|              | SFHformer     | [link]() |
+|              | AST           | [link](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155229775_link_cuhk_edu_hk/EeO1dAiWCdBJuY5ly1HsJz8BcyJYAkhxMd5JTBv3LSLkZg?e=CojCnU) |
+|              | X-Restormer   | [link](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155229775_link_cuhk_edu_hk/EYl5A7QMOEtNqMW8dCENh1cBGYmij_YxT0A89ZoMLTwmXA?e=oJn39S) |
+|              | SFHformer     | [link](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155229775_link_cuhk_edu_hk/EUpbJC0MQbBAn3nQ3ueeSRABwYHv9NGop0OA8UHeB8Tyfw?e=iackHj) |
 |              | MambaIRv2     | [link]() |
 |==============|===============|======|
 |              | Restormer     | [link]() |
@@ -123,8 +123,8 @@ Official Implementation of "[Benchmarking Laparoscopic Surgical Image Restoratio
 |              | MambaIR       | [link]() |
 |              | Histoformer   | [link]() |
 | **Desplashing**| RAMiT       | [link]() |
-|              | AMIR          | [link]() |
-|              | AST           | [link]() |
+|              | AMIR          | [link](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155229775_link_cuhk_edu_hk/EWWgHGBsYFZFgvJYb7MjA7sBITLoFBS5b2YM_jAb_zVwPg?e=AzLUI2) |
+|              | AST           | [link](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155229775_link_cuhk_edu_hk/EY-Kk6usaH5DiyPjeDFe4EUB7vZv2cNRHLHmX51iCKrEIQ?e=qnxdX9) |
 |              | X-Restormer   | [link]() |
 |              | SFHformer     | [link]() |
 |              | MambaIRv2     | [link]() |
