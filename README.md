@@ -102,7 +102,7 @@ Official Implementation of "[Benchmarking Laparoscopic Surgical Image Restoratio
 |              | X-Restormer   | [link]() |
 |              | SFHformer     | [link]() |
 |              | MambaIRv2     | [link]() |
-|==============|===============|==========|
+|==============|===============|======|
 |              | Restormer     | [link]() |
 |              | FocalNet      | [link]() |
 |              | ConvIR        | [link]() |
@@ -115,7 +115,7 @@ Official Implementation of "[Benchmarking Laparoscopic Surgical Image Restoratio
 |              | X-Restormer   | [link]() |
 |              | SFHformer     | [link]() |
 |              | MambaIRv2     | [link]() |
-|--------------|---------------|------|
+|==============|===============|======|
 |              | Restormer     | [link]() |
 |              | FocalNet      | [link]() |
 |              | ConvIR        | [link]() |
@@ -128,6 +128,7 @@ Official Implementation of "[Benchmarking Laparoscopic Surgical Image Restoratio
 |              | X-Restormer   | [link]() |
 |              | SFHformer     | [link]() |
 |              | MambaIRv2     | [link]() |
+
 
 
 
