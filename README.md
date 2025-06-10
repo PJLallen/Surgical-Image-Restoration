@@ -32,9 +32,10 @@ Official Implementation of "[Benchmarking Laparoscopic Surgical Image Restoratio
     python setup.py develop
     ```
 
+## SurgClean Dataset 
+
 ![SurgClean](assets/Dataset.png)
     
-## Data Preparing
 ### Data Download
 
 |     | Kaggle | Description|
