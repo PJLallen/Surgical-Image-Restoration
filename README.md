@@ -90,18 +90,9 @@ Official Implementation of "[Benchmarking Laparoscopic Surgical Image Restoratio
 
 | Training Data       |                   One Drive                     |
 | :------------------ | :----------------------------------------------------------: |
-| Restormer    | [link]() |
-| FocalNet | [link]()  |
-| ConvIR    | [link]() |
-| Fourmer | [link]()  |
-| MambaIR    | [link]() |
-| Histoformer | [link]()  |
-| RAMiT    | [link]() |
-| AMIR | [link]()  |
-| AST    | [link]() |
-| X-Restormer | [link]()  |
-| SFHformer   | [link]() |
-|  MambaIRv2 | [link]()  |
+| Desmoking    | [link]() |
+| Defogging | [link]()  |
+| Desplashing    | [link]() |
 
 ## Training Commands
 
