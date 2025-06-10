@@ -90,7 +90,8 @@ Official Implementation of "[Benchmarking Laparoscopic Surgical Image Restoratio
 
 | Task         | Method        | Link |
 |--------------|---------------|------|
-| Desmoking    | Restormer     | [link]() |
+| **Desmoking** |               |      |
+|              | Restormer     | [link]() |
 |              | FocalNet      | [link]() |
 |              | ConvIR        | [link]() |
 |              | Fourmer       | [link]() |
@@ -102,7 +103,9 @@ Official Implementation of "[Benchmarking Laparoscopic Surgical Image Restoratio
 |              | X-Restormer   | [link]() |
 |              | SFHformer     | [link]() |
 |              | MambaIRv2     | [link]() |
-| Defogging    | Restormer     | [link]() |
+|--------------|---------------|------|
+| **Defogging** |               |      |
+|              | Restormer     | [link]() |
 |              | FocalNet      | [link]() |
 |              | ConvIR        | [link]() |
 |              | Fourmer       | [link]() |
@@ -114,7 +117,9 @@ Official Implementation of "[Benchmarking Laparoscopic Surgical Image Restoratio
 |              | X-Restormer   | [link]() |
 |              | SFHformer     | [link]() |
 |              | MambaIRv2     | [link]() |
-| Desplashing  | Restormer     | [link]() |
+|--------------|---------------|------|
+| **Desplashing** |            |      |
+|              | Restormer     | [link]() |
 |              | FocalNet      | [link]() |
 |              | ConvIR        | [link]() |
 |              | Fourmer       | [link]() |
