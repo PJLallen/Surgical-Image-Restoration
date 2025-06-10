@@ -90,18 +90,19 @@ Official Implementation of "[Benchmarking Laparoscopic Surgical Image Restoratio
 
 | Desmoking      | Link | Defogging      | Link | Desplashing    | Link |
 |----------------|------|----------------|------|----------------|------|
-| Restormer      | [link](https://...) | Restormer      | [link]() | Restormer      | [link]() |
-| FocalNet       | [link](https://...) | FocalNet       | [link]() | FocalNet       | [link]() |
-| ConvIR         | [link](https://...) | ConvIR         | [link]() | ConvIR         | [link]() |
-| Fourmer        | [link]()            | Fourmer        | [link]() | Fourmer        | [link]() |
-| MambaIR        | [link](https://...) | MambaIR        | [link]() | MambaIR        | [link]() |
-| Histoformer    | [link]()            | Histoformer    | [link]() | Histoformer    | [link]() |
-| RAMiT          | [link]()            | RAMiT          | [link]() | RAMiT          | [link]() |
-| AMIR           | [link]()            | AMIR           | [link]() | AMIR           | [link](https://...) |
-| AST            | [link](https://...) | AST            | [link](https://...) | AST            | [link](https://...) |
-| X-Restormer    | [link](https://...) | X-Restormer    | [link](https://...) | X-Restormer    | [link]() |
-| SFHformer      | [link](https://...) | SFHformer      | [link](https://...) | SFHformer      | [link]() |
-| MambaIRv2      | [link]()            | MambaIRv2      | [link]() | MambaIRv2      | [link]() |
+| Restormer      | [link](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155229775_link_cuhk_edu_hk/EZElMdwlg-xNnJEdJ5KnDmoBgnpzaPacbMlUWL0mmw4BkQ?e=y4RhPO) | Restormer      | [link]() | Restormer      | [link]() |
+| FocalNet       | [link](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155229775_link_cuhk_edu_hk/EYkp3P3qzTtChmDt8Acngm8BSdH7o8C_dXBXpsrBksJM_A?e=VHrUrc) | FocalNet       | [link]() | FocalNet       | [link]() |
+| ConvIR         | [link](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155229775_link_cuhk_edu_hk/EdDkxFqrtm9ItTVrh_x9F3kBXJ9r9V4M64msxpI-RZSGgg?e=ypfyYI) | ConvIR         | [link]() | ConvIR         | [link]() |
+| Fourmer        | [link]() | Fourmer        | [link]() | Fourmer        | [link]() |
+| MambaIR        | [link](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155229775_link_cuhk_edu_hk/EcTnI2f19J1IjLrqecIZlh4Bc0mmlqrD_TCZdK3t15Q09Q?e=GE3hyY) | MambaIR        | [link]() | MambaIR        | [link]() |
+| Histoformer    | [link]() | Histoformer    | [link]() | Histoformer    | [link]() |
+| RAMiT          | [link]() | RAMiT          | [link]() | RAMiT          | [link]() |
+| AMIR           | [link]() | AMIR           | [link]() | AMIR           | [link](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155229775_link_cuhk_edu_hk/EWWgHGBsYFZFgvJYb7MjA7sBITLoFBS5b2YM_jAb_zVwPg?e=AzLUI2) |
+| AST            | [link](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155229775_link_cuhk_edu_hk/EY-Kk6usaH5DiyPjeDFe4EUB7vZv2cNRHLHmX51iCKrEIQ?e=qnxdX9) | AST            | [link](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155229775_link_cuhk_edu_hk/EeO1dAiWCdBJuY5ly1HsJz8BcyJYAkhxMd5JTBv3LSLkZg?e=CojCnU) | AST            | [link](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155229775_link_cuhk_edu_hk/EY-Kk6usaH5DiyPjeDFe4EUB7vZv2cNRHLHmX51iCKrEIQ?e=qnxdX9) |
+| X-Restormer    | [link](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155229775_link_cuhk_edu_hk/EdnGkPQ3jkFHt8dBQhbfAxIBVU3rjEBqkF8QXm31FJjg6w?e=S5mW9n) | X-Restormer    | [link](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155229775_link_cuhk_edu_hk/EYl5A7QMOEtNqMW8dCENh1cBGYmij_YxT0A89ZoMLTwmXA?e=oJn39S) | X-Restormer    | [link]() |
+| SFHformer      | [link](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155229775_link_cuhk_edu_hk/ERFQ6yQ4LtxInEmGli3mJq0BOkMQwZyOqyp5ln8IWCGlWw?e=ipa79T) | SFHformer      | [link](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155229775_link_cuhk_edu_hk/EUpbJC0MQbBAn3nQ3ueeSRABwYHv9NGop0OA8UHeB8Tyfw?e=iackHj) | SFHformer      | [link]() |
+| MambaIRv2      | [link]() | MambaIRv2      | [link]() | MambaIRv2      | [link]() |
+
 
 
 
