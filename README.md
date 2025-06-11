@@ -1,4 +1,4 @@
-# <img src="assets/SIR-icon2.png" height="24" style="vertical-align: middle;"> [2025] Surgical Image Restoration Benchmark
+# <img src="assets/SIR-icon2.png" height="26" style="vertical-align: text-bottom;"> [2025] Surgical Image Restoration Benchmark
 
 ![SIR](assets/Teaser.png) 
 
