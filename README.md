@@ -1,4 +1,4 @@
-# ![Logo](assets/SIR-icon2.png)[2025] Surgical Image Restoration Benchmark
+# <img src="assets/SIR-icon2.png" width="16" style="vertical-align: text-bottom;">[2025] Surgical Image Restoration Benchmark
 ![SIR](assets/Teaser.png) 
 
 Official Implementation of "[Benchmarking Laparoscopic Surgical Image Restoration and Beyond](https://arxiv.org/abs/2505.19161)"
