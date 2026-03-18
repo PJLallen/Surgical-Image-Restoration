@@ -1,4 +1,4 @@
-# <img src="assets/SIR-icon2.png" height="26" style="vertical-align: text-bottom;"> [2025] Surgical Image Restoration Benchmark
+# <img src="assets/SIR-icon2.png" height="26" style="vertical-align: text-bottom;"> [2026] Surgical Image Restoration Benchmark
 
 ![SIR](assets/Teaser.png) 
 
@@ -35,7 +35,7 @@ Official Implementation of "[Benchmarking Laparoscopic Surgical Image Restoratio
 
 ## 💥 SurgClean Dataset 
 
-![SurgClean](assets/Dataset.pdf)
+![SurgClean](assets/Dataset.png)
     
 ### Data Download
 
@@ -176,13 +176,13 @@ or
 ## 📈 Benchmarking Results
 ### Quantitative comparison for surgical image restoration on SurgClean test set.
 
-![Result](assets/Results.png)
+![Result](assets/main_results.png)
 
 ![Result2](assets/Rose.png)
 
 ### Qualitative comparison for surgical image restoration on SurgClean test set.
 
-![Visual](assets/Visual_Comparison.png)
+![Visual](assets/Comparison.png)
 
 ## 📚 Citation
 
