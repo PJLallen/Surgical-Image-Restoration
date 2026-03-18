@@ -178,7 +178,7 @@ or
 
 ![Result](assets/main_results.png)
 
-![Result2](assets/Rose.png)
+![Result2](assets/Rose2.png)
 
 ### Qualitative comparison for surgical image restoration on SurgClean test set.
 
