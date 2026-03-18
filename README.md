@@ -35,7 +35,7 @@ Official Implementation of "[Benchmarking Laparoscopic Surgical Image Restoratio
 
 ## 💥 SurgClean Dataset 
 
-![SurgClean](assets/Dataset.png)
+![SurgClean](assets/Dataset.pdf)
     
 ### Data Download
 
