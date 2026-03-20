@@ -16,6 +16,7 @@ This repo is the official implementation of "[**Benchmarking Endoscopic Surgical
   <a href=''><img src='https://img.shields.io/badge/%F0%9F%A4%97%20HF-Space-blue'></a>&ensp; 
   <a href=''><img src='https://img.shields.io/badge/%F0%9F%A4%97%20HF-Model-blue'></a>&ensp; 
   -->
+  </div>
 
 **Contact:** peijialun@gmail.com, malone94319@gmail.com
 
