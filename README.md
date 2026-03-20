@@ -2,11 +2,20 @@
 
 ![SIR](assets/Teaser.png) 
 
-Official Implementation of "[Benchmarking Endoscopic Surgical Image Restoration and Beyond](https://arxiv.org/abs/2505.19161)"
+This repo is the official implementation of "[**Benchmarking Endoscopic Surgical Image Restoration and Beyond**](https://arxiv.org/abs/2505.19161)" (___CVPR 2026___).
 
 [Jialun Pei](https://scholar.google.com/citations?user=1lPivLsAAAAJ&hl=en), [Diandian Guo](https://scholar.google.com/citations?user=yXycwhIAAAAJ&hl=zh-CN&oi=ao), [Donghui Yang](), [Zhixi Li](), [Yuxin Feng](), [Long Ma](https://scholar.google.com/citations?user=QeCRo9sAAAAJ&hl=zh-CN&oi=ao), [Bo Du](https://scholar.google.com/citations?user=Shy1gnMAAAAJ&hl=zh-CN&oi=ao), and [Pheng-Ann Heng](https://scholar.google.com/citations?user=OFdytjoAAAAJ&hl=zh-CN)
 
-👀 [[Paper]](https://arxiv.org/abs/2505.19161)
+<div align="center" style="display: flex; justify-content: center; flex-wrap: wrap;">
+  <a href='(https://arxiv.org/abs/2505.19161'><img src='https://img.shields.io/badge/Conference-Paper-red'></a>&ensp; 
+  <a href='(https://arxiv.org/abs/2505.19161'><img src='https://img.shields.io/badge/arXiv-Paper-red'></a>&ensp; 
+  <a href=''><img src='https://img.shields.io/badge/中文版-Paper-red'></a>&ensp; 
+  <a href=''><img src='https://img.shields.io/badge/Page-Project-green'></a>&ensp; 
+  <a href='LICENSE'><img src='https://img.shields.io/badge/License-MIT-yellow'></a>&ensp; 
+  <!--
+  <a href=''><img src='https://img.shields.io/badge/%F0%9F%A4%97%20HF-Space-blue'></a>&ensp; 
+  <a href=''><img src='https://img.shields.io/badge/%F0%9F%A4%97%20HF-Model-blue'></a>&ensp; 
+  -->
 
 **Contact:** peijialun@gmail.com, malone94319@gmail.com
 
