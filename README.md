@@ -53,7 +53,7 @@ This repo is the official implementation of "[**Benchmarking Endoscopic Surgical
 
 |     | Google Drive | Description|
 | :--- | :--: | ---- |
-| SurgClean | [link](https://docs.google.com/forms/d/e/1FAIpQLSfexg3fqqGzi2pGl7wxQXRVe1AWSksvMyExN-ELQBi8tg_qDw/viewform?usp=dialog) | SurgClean involves multi-type image restoration tasks, i.e., desmoking, defogging, and desplashing. It comprises 3,113 multi-type endoscopic images from two medical sites with varying degradation types and corresponding adjacent clean frames as unaligned paired labels.|
+| SurgClean | <nobr>[link](https://docs.google.com/forms/d/e/1FAIpQLSfexg3fqqGzi2pGl7wxQXRVe1AWSksvMyExN-ELQBi8tg_qDw/viewform?usp=dialog)<nobr> | SurgClean involves multi-type image restoration tasks, i.e., desmoking, defogging, and desplashing. It comprises 3,113 multi-type endoscopic images from two medical sites with varying degradation types and corresponding adjacent clean frames as unaligned paired labels.|
 
 **Our dataset has been released since May 15th, 2026.**
 
