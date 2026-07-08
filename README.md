@@ -203,11 +203,12 @@ or
 If this helps you, please cite this work:
 
 ```bibtex
-@article{pei2025benchmarking,
-  title={Benchmarking Laparoscopic Surgical Image Restoration and Beyond},
+@inproceedings{pei2026benchmarking,
+  title={Benchmarking Endoscopic Surgical Image Restoration and Beyond},
   author={Pei, Jialun and Guo, Diandian and Yang, Donghui and Li, Zhixi and Feng, Yuxin and Ma, Long and Du, Bo and Heng, Pheng-Ann},
-  journal={arXiv preprint arXiv:2505.19161},
-  year={2025}
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={37413--37422},
+  year={2026}
 }
 ```
 
