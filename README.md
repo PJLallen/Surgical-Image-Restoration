@@ -48,6 +48,9 @@ This repo is the official implementation of "[**Benchmarking Endoscopic Surgical
 ## 💥 SurgClean Dataset 
 
 ![SurgClean](assets/Dataset.png)
+
+**Note:** The **PmLR50 dataset** is released under a CC BY-NC-ND 4.0 license. Commercial use, redistribution and public release of modified or derivative versions of the dataset are prohibited without prior written permission.
+
     
 ### Data Download
 
